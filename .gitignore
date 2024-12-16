@@ -1,0 +1,8 @@
+# Ignore Python cache and environment
+*.pyc
+__pycache__/
+.env
+/.idea/
+.idea
+/tmp/
+.idea

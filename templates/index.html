@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Question Answering App</title>
+</head>
+<body>
+    <h1>Upload PDF and Ask Questions</h1>
+    <form action="/api/upload" method="post" enctype="multipart/form-data">
+        <label for="pdf">Select PDF:</label>
+        <input type="file" name="pdf" id="pdf" required>
+        <br><br>
+        <label for="questions">Enter Questions (one per line):</label>
+        <textarea name="questions" id="questions" rows="10" cols="50" required></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
