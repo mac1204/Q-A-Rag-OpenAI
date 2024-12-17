@@ -17,8 +17,8 @@ This app allows users to upload a PDF and ask questions about its content. It ut
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/pdf-question-answer-app.git
-   cd pdf-question-answer-app
+   git clone https://github.com/mac1204/Q-A-Rag-OpenAI.git
+   cd Q-A-Rag-OpenAI
    
 2. Create a virtual environment:
     ```bash
